@@ -50,7 +50,7 @@ if __name__ == "__main__":
 
         if regular_queue_size is not None:
             print(f"Regular Queue Size: {regular_queue_size}")
-            if regular_queue_size < 40:
+            if regular_queue_size < 300:
                 notification.notify(
                     title="Очередь 2b2t",
                     message=f"Regular Queue is now {regular_queue_size} people.",
