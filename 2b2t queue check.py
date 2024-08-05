@@ -39,7 +39,7 @@ def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
-    # Задание названия окна консоли
+    # Изменение названия окна консоли
     ctypes.windll.kernel32.SetConsoleTitleW("2b2t queue")
 
     while True:
